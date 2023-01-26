@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TinDog</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Charm:wght@700&family=Cookie&family=Grape+Nuts&family=Lilita+One&family=Macondo&family=Merriweather:ital@1&family=Mochiy+Pop+One&family=Montserrat&family=Sacramento&family=Smooch&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section id="title">
+      <!-- Nav Bar -->
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <!-- <a class="navbar-brand" href="">tindog</a> -->
+          <img
+            class="ardex-title"
+            src="images/ardex-title.png"
+            alt="ardex-title"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto">
+
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#app-pages">App-Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="mainTitle text-white">
+              Experience your memories like never before - with our
+              <i class="ar-word">AR scrapbooking app. </i>
+            </h1>
+            <button class="btn btn-dark btn-lg downButton" type="button">
+              <i class="fa-brands fa-apple"> </i> Download
+            </button>
+            <button
+              class="btn btn-outline-light btn-lg downButton"
+              type="button"
+            >
+              <i class="fa-brands fa-google-play"> </i> Download
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="titleimg"
+              src="images/iphone-mockup.png"
+              alt="iphone-mockup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="row">
+        <div class="col-lg-4 feature-div">
+          <i class="fa-solid fa-circle-check featureimg"></i>
+          <h3 class="feature-heading">User-friendly interface.</h3>
+          <p>
+            Designed with user-friendliness in mind, making it easy for anyone
+            to navigate.
+          </p>
+        </div>
+        <div class="col-lg-4 feature-div">
+          <i class="fa-solid fa-users featureimg"></i>
+          <!-- <i class="fa fa-user-circle-o featureimg"></i> -->
+          <!-- <i class="fa-solid fa-bullseye featureimg"></i> -->
+          <h3 class="feature-heading">Share your world</h3>
+          <p>
+            Share your own personal recollections and gain insight into the
+            memories of others.
+          </p>
+        </div>
+        <div class="col-lg-4 feature-div">
+          <i class="fa-solid fa-heart featureimg"></i>
+          <h3 class="feature-heading">Treasure memories</h3>
+          <p>
+            Preserve the memories of your loved ones, and enhance your
+            understanding by them.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+
+    <section id="about">
+      <h1 class="about-title">About</h1>
+      <div id="testimonials-slider" class="carousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="testimonials-info about-info">
+              Our augmented reality scrapbooking platform allows users to document,
+              organize, annotate, and share their memories with others in a safe and
+              interactive way.
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonials-info about-info">
+              It offers a unique approach to scrapbooking by integrating and overlaying real-world content, and includes various community interaction aspects, such as sharing media related to a physical location, leaving messages and reactions, and derivative annotations to content.
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonials-info about-info">
+            The platform caters to different types of users and provides various interfaces for visualizing content, while also ensuring appropriate moderation and a safe environment. Join our community and start creating and sharing your memories in a new and exciting way.
+            </h2>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonials-slider"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonials-slider"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+
+    <!-- App Pages -->
+
+    <section id="app-pages">
+      <h1 class="pages-title">App Pages</h1>
+      <div class="container text-center">
+
+        <div class="row skill-row">
+          <div class="col-lg-5">
+            <img class="app-img" src="images/ardex-maps.png" alt="ardex-maps">
+          </div>
+          <div class="col-lg-5 skill-col">
+            <h3 class="app-page-subhead">Experience the world from the comfort of your own device.</h3>
+            <p class="app-page-subcontent">With the integration and overlay of real-world content, you can document, organize, annotate, and share your memories with others in a safe and interactive way.</p>
+          </div>
+        </div>
+
+
+        <div class="row skill-row">
+          <div class="col-lg-5 skill-col">
+            <h3 class="app-page-subhead">Form connections and build communities.</h3>
+            <p class="app-page-subcontent">Our platform enables users to create and join groups, where they can connect and interact with like-minded individuals. You can share media related to a physical location,and even leave messages and reactions to content shared by others. Whether you're interested in a specific hobby, location or event, you can find and join a group that aligns with your interests.</p>
+          </div>
+          <div class="col-lg-5">
+            <img class="app-img" src="images/ardex-groups.png" alt="ardex-groups">
+          </div>
+        </div>
+
+
+
+        <div class="row skill-row">
+          <div class="col-lg-5">
+            <img class="app-img" src="images/ardex-homepage.png" alt="ardex-homepage">
+          </div>
+          <div class="col-lg-5 skill-col">
+            <h3 class="app-page-subhead">Connect and engage with those around you.</h3>
+            <p class="app-page-subcontent">Discover and explore the memories of others through the use of scrapbooks. You can browse through various scrapbooks, view annotations and photos, and gain insight into the unique experiences of individuals from different backgrounds and cultures.</p>
+          </div>
+        </div>
+
+        <div class="row skill-row">
+          <div class="col-lg-5 skill-col">
+            <h3 class="app-page-subhead">Capture and preserve your memories in AR.</h3>
+            <p class="app-page-subcontent">Our platform allows users to upload photos and create scrapbooks, giving you the ability to document and organize your memories in a unique and interactive way. By integrating and overlaying real-world content, you can bring your memories to life and share them with others in a safe and interactive environment.</p>
+          </div>
+          <div class="col-lg-5">
+            <img class="app-img" src="images/ardex-upload.png" alt="ardex-upload">
+          </div>
+        </div>
+
+
+
+        <div class="row skill-row">
+          <div class="col-lg-5">
+            <img class="app-img" src="images/ardex-collections.png" alt="ardex-collections">
+          </div>
+          <div class="col-lg-5 skill-col">
+            <h3 class="app-page-subhead">Create personalized collections from scrapbooks.</h3>
+            <p class="app-page-subcontent">Our platform allows users to browse through various scrapbooks created by other users and create their own collections, giving you the ability to explore the experiences and perspectives of others, and preserve the memories that resonated with you.</p>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+
+
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <h3 class="ctahead">Create and share your own augmented reality scrapbook, document your life in a unique and innovative way starting today. . .</h3>
+      <button class="btn btn-dark btn-lg ctaButton" type="button">
+        <i class="fa-brands fa-apple"> </i> Download
+      </button>
+      <button class="btn btn-light btn-lg ctaButton" type="button">
+        <i class="fa-brands fa-google-play"> </i> Download
+      </button>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <i class="footerbrands fa-brands fa-twitter"></i>
+      <i class="footerbrands fa-brands fa-facebook"></i>
+      <i class="footerbrands fa-brands fa-instagram"></i>
+      <i class="footerbrands fa-solid fa-envelope"></i>
+
+      <p>Copyright ARdeX @ Raj Jagasia © 2023</p>
+    </footer>
+  </body>
+</html>
